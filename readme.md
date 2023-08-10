@@ -1,3 +1,5 @@
-# Final Project - Jose ALbeldo
+# Personal Project - Jose ALbeldo
 
-Bilita Mpash- Film/Cars
+Bilita Mpash --> Website where you can see, add, modify the cars of your dreams
+
+Front-End
