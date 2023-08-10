@@ -1,0 +1,63 @@
+.carformeditcontainer {
+  background-image: url("../../../../public/register.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 59vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  form {
+    background-color: rgba(0, 0, 0, 0.327);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 1em;
+    label {
+      color: white;
+      background-color: transparent;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+
+  .register-form {
+    height: 60%;
+    width: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title_form {
+    color: #d3af37;
+  }
+
+  input {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1px 1rem 1px 1rem;
+    margin: 0.5rem;
+  }
+
+  input:hover {
+    background-color: rgba(0, 234, 255, 0.658);
+  }
+
+  .subtitle {
+    color: aqua;
+  }
+
+  input::placeholder {
+    padding-left: 20px;
+    color: rgb(14, 32, 2);
+  }
+}

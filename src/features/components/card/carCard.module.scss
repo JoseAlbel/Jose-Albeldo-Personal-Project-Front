@@ -1,0 +1,23 @@
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  padding: 1.5rem;
+
+  .cardcar {
+    list-style: none;
+  }
+  .carimage {
+    width: 25rem;
+    background-size: contain;
+    border-radius: 10rem;
+  }
+  .cardata {
+    background-color: #252c33;
+    color: var(--pgo-500, #d3af37);
+  }
+}

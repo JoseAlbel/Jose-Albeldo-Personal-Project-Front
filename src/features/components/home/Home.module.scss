@@ -1,0 +1,40 @@
+.homecontainer {
+  background-color: #252c33;
+  color: var(--pgo-500, #d3af37);
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  // display: flex;
+  padding: 1rem;
+
+  .imagecontainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .lema {
+    font-size: 1rem;
+  }
+  .register {
+    font-size: 20px;
+    padding: 0.6em;
+    margin: 0.5em;
+    color: red;
+  }
+  .golist {
+    color: red;
+  }
+  .imageshelby {
+    width: 30rem;
+    border-radius: 17rem;
+  }
+  .whyus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagedessertcar {
+    width: 25rem;
+    border-radius: 17rem;
+  }
+}
